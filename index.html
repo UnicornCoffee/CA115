@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="MatchUp Homepage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MatchUp</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/css.css" /> 
+    <script src = "javascript/jsmatch.js"></script>
+</head>
+
+
+<body>
+    <section id="nav" class="nav-container">  
+        <div class="nav">
+       <a class="active" href="" ">Home</a> 
+        <a href=" ">Our Product</a> 
+       <a href="">Plans and Pricing</a> 
+        <a href="">About Us</a> 
+
+        </div>
+        <img src="images/logo.png" alt="Forest" style="width:10%">
+    </section>
+    <a id="top"></a>
+    <section id="intro" class="intro-container">  
+        <div class="intro">
+        <h2>What can MatchUp do for you?</h2>
+          
+
+        
+    <div class="row">
+        <div class="column">
+          <img src="images/footballers.jpg" alt="Two men chasing a ball" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/footballers2.jpg" alt="Two men chasing a ball" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="images/footballer3.jpg" alt="five boys lined up at a football game" style="width:100%">
+          </div>
+          
+        </div>
+    </section>
+    <section id="service" class="service-container">  
+        <div class="service">
+    <p>Our Services:</p>
+<button type="button" class="collapsible">Discounts</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Ranked Play</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button type="button" class="collapsible">Sweepstakes</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
+</section>
+    <section id="ourvals" class="ourvals">  
+        <div class="ourvals">
+            <img src="images/values.png" title="Our Values" alt="Our Values" width=400>
+
+        </div>
+    </section>
+
+    
+    <section id="store" class="store">  
+        <div class="store">
+            <h2>Find us on</h2>
+            <p><img src="images/storelogo.png" width=5></p>
+        </div>
+    </section>
+
+    <section id="footer" class="footer">  
+        <div class="footer">
+            <p>MatchUp 2022 <a href="#top">Back to top</a></p>
+        </div>
+    </section>
+
+   <!--SCRIPT FOR COLLAPSIBLE--> 
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+
+</html>
