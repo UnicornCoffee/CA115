@@ -1,0 +1,135 @@
+
+/*GENERAL STYLING*/
+@media only screen and (max-width: 600px) {
+body{
+	background-color:#ffffff;
+	color: #282828;
+	border-style: hidden;
+  border-width: 5px;	
+}
+}
+h1{
+	text-align:center;
+	font-size:80px;
+	font-family: 'Open Sans', sans-serif
+	
+}
+
+h2{
+  font-size:80px;
+ color: #282828;
+ font-family: 'Open Sans', sans-serif
+}
+
+p{
+font-family: 'Open Sans', sans-serif;
+color: #000000;
+
+}
+
+img{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 70%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+
+}
+/* IMAGES AT TOP OF PAGE*/
+ .column {
+  float: left;
+  width: 25%;
+  
+  padding-right: 30px;
+  
+  padding-left: 80px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+/*SPECIFIC STYLING*/
+div.intro {
+text-align: center;
+
+
+
+ }
+div.store {
+  text-align: center;
+
+}
+div.service{
+border-style: hidden;
+padding-top: 50px;
+  padding-right: 80px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: center;
+}
+
+.footer{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(161, 158, 158);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/* NAVBAR STYLE*/
+.nav{
+background-color: rgb(252, 252, 252);
+overflow: hidden;
+position:relative;
+width:100%;
+
+}
+
+
+.nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .nav a:hover {
+    background-color: rgb(168, 166, 166);
+    color: black;
+  }
+  
+
+  .nav a.active {
+    background-color: rgb(161, 158, 158);
+    color: white;
+  }
+
+  /*COLLAPSEABLE SECTION*/
+  .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
