@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="MatchUp Homepage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MatchUp</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/css.css" /> 
+    <script src = "javascript/jsmatch.js"></script>
+</head>
+
+
+<body>
+    <section id="nav" class="nav-container">  
+        <div class="nav">
+       <a class="active" href="" ">Home</a> 
+        <a href=" ">Our Product</a> 
+       <a href="">Plans and Pricing</a> 
+        <a href="">About Us</a> 
+        <a href="">Contact Us</a> 
+
+        </div>
+        <img src="images/logo.png" alt="MatchUp's Logo" style="width:10%">
+    </section>
+    <a id="top"></a>
+    <section id="intro" class="intro-container">  
+        <div class="intro">
+        <h2>What can MatchUp do for you?</h2>
+          
+
+        
+    <div class="row">
+        <div class="column">
+          <img src="images/footballers.jpg" alt="Two men chasing a ball" style="width: 100%; ">
+        </div>
+        <div class="column">
+          <img src="images/footballers2.jpg" alt="Two men chasing a ball" style="width: 100%; ">
+        </div>
+        <div class="column">
+            <img src="images/footballer3.jpg" alt="five boys lined up at a football game" style="width: 100%; ">
+          </div>
+          
+        </div>
+    </section>
+    <section id="service" class="service-container">  
+        <div class="service">
+    <h2>Our Services:</h2>
+    <button type="button" class="collapsible">Why choose MatchUp?</button>
+<div class="content">
+  <p>MatchUp is a player first application which aims to bring people together over a shared love of football. <br>
+    With our successful partnerships with pitches nationwide, combined with our game finder and team making tools, MatchUp is the only tool needed to enjoy frequent 5-a-side matches.
+</p>
+</div>
+<button type="button" class="collapsible">Discounts</button>
+<div class="content">
+  <p>Our users get a 10% discount code to use at our affilated partners towards pitch rental. This offer is applied on a second rental, automatically upon purchasing their first.</p>
+</div>
+<button type="button" class="collapsible">Ranked Play</button>
+<div class="content">
+  <p>Using personal ELO-ratings, our matching technology ensures that players will be matched with others of a similar skill level. <br> These ratings are also applied to our leaderboards, where users can win monthly prizes. </p>
+</div>
+<button type="button" class="collapsible">Sweepstakes</button>
+<div class="content">
+  <p>We've partnered with 40 Premier League football players to give users a chance to meet and train with them. Users will automatically be entered into our monthly draw after entering a competitive pool.</p>
+</div>
+</div>
+</section>
+    <section id="ourvals" class="ourvals">  
+        <div class="ourvals">
+            <img src="images/values.png" title="Our Values" alt="Our Values" width=400>
+
+        </div>
+    </section>
+
+    
+    <section id="store" class="store">  
+        <div class="store">
+            <h2>Find us on</h2>
+            <p><img src="images/storelogo.png" width=5></p>
+        </div>
+    </section>
+
+    <section id="footer" class="footer">  
+        <div class="footer">
+            <p>MatchUp 2022 <a href="#top">Back to top</a></p>
+        </div>
+    </section>
+
+
+
+
+
+    
+   <!--SCRIPT FOR COLLAPSIBLE--> 
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+              content.style.display = "none";
+            } else {
+              content.style.display = "block";
+            }
+          });
+        }
+        </script>
+</body>
+
+</html>

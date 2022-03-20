@@ -1,0 +1,224 @@
+
+/*GENERAL STYLING*/
+
+.body{
+  margin: auto;
+}
+
+
+
+h1{
+	text-align:center;
+	font-size:80px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FCFCFC;
+}
+
+h2{
+font-size:80px;
+font-family: 'Open Sans', sans-serif;
+ color: #042A2B;
+ background-color: #FCFCFC;
+}
+
+p{
+font-family: 'Open Sans', sans-serif;
+color:#042A2B;
+background-color: #FCFCFC;
+
+}
+
+img{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 70%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+/* IMAGES AT TOP OF PAGE*/
+ .column {
+  float: left;
+  width: 25%;
+  padding-right: 30px;
+  padding-left: 80px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+
+
+
+
+
+
+/*SPECIFIC STYLING*/
+div.intro {
+text-align: center;
+border-style: solid;
+border-color: #FCFCFC;
+background-color: #FCFCFC;
+padding: 25px;	
+
+ }
+div.store {
+  text-align: center;
+  border-style: solid;
+  border-color: #FCFCFC;
+  background-color: #FCFCFC;
+  padding: 25px;	
+}
+div.service {
+border-style: solid;
+border-color: #FCFCFC;
+background-color: #FCFCFC;
+padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  text-align: center;
+}
+
+div.ourvals{
+
+  border-style: solid;
+  border-color: #FCFCFC;
+  background-color:#FCFCFC;
+  padding: 25px;	
+}
+
+div.footer p{
+  position:relative;
+    bottom: 0;
+    width: 100%;
+    color: #042A2B;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border-color: #FCFCFC;
+    background-color:#C2B1AD;
+    padding-bottom:40px;
+  }
+
+
+
+
+
+
+
+
+
+/* NAVBAR STYLE*/
+.nav{
+background-color: #C2B1AD;
+overflow: hidden;
+position:relative;
+width:100%;
+font-family: 'Open Sans', sans-serif
+}
+
+
+.nav a {
+    float: left;
+    color: #042A2B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top:40px
+  }
+  
+  
+  .nav a:hover {
+    background-color: #68A357;
+    color: #FCFCFC;
+  }
+  
+
+  .nav a.active {
+    background-color: rgb(161, 158, 158);
+    color: white;
+  }
+
+  /*COLLAPSEABLE SECTION*/
+  .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+
+
+
+  /*ADPATED FROM W3 Schools Form tutorial linked in the About Us section. Styled by me.*/
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;  
+  border: 1px solid #68A357; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #68A357;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 2px;
+  border-style: solid;
+  border-color: #45a049;
+  background-color: #f2f2f2;
+  padding: 100px;
+  align-content: center;
+} 
+
+.contactlines{
+text-align: center;
+background-color: white;
+}
+
+.contactlines h2, p{
+  padding: 0px;
+  background-color: white;
+  
+  }
